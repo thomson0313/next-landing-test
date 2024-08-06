@@ -1,0 +1,325 @@
+.body {
+    width: 100%;
+    height: auto;
+    background: #191A1F;
+    padding-left: 63.59px;
+    padding-top: 49.81px;
+}
+
+.mainBack {
+    width: 1803.35px;
+    height: 651.18px;
+    padding: 17.29px 131.39px 91.52px 115.72px;
+}
+
+.mailSendingBack {
+    width: 1556.24px;
+    height: 541.36px;
+    border-radius: 171.59px 26.6px 26.6px 26.6px;
+    opacity: 0.2px;
+    /* transform: rotate(-360deg); */
+    background: rgba(0, 0, 0, 1);
+    padding: 105.08px 206.74px 292.28px 207.5px;
+    position: relative;
+    z-index: 50;
+}
+
+.mailSendingBack p {
+    width: 1142px;
+    height: 144px;
+    font-family: Poppins;
+    font-size: 43.89px;
+    font-weight: 600;
+    line-height: 71.83px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    z-index: 1;
+}
+
+.inputDiv {
+    display: flex;
+    gap: 31.92px;
+    margin-top: 98.08px;
+    margin-left: 127.69px;
+}
+
+.inputDiv .input {
+    width: 559.98px;
+    height: 90.45px;
+    position: relative;
+}
+
+.input img {
+    position: absolute;
+    top: 33.25px;
+    left: 41.23px;
+}
+
+.input input {
+    width: 100%;
+    height: 100%;
+    border: 1.33px solid rgba(57, 66, 93, 1);
+    border-radius: 13.3px;
+    padding: 33.25px 372.19px 34.2px 87.79px;
+}
+
+.input input::placeholder {
+    font-family: Montserrat;
+    font-size: 18.62px;
+    font-weight: 400;
+    line-height: 22.7px;
+    text-align: left;
+}
+
+
+.inputDiv button {
+    width: 239.42px;
+    height: 90.45px;
+    border-radius: 13.3px;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40.85px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background: linear-gradient(103.25deg, #0D70BC 28.93%, #88E2E8 98.76%);
+}
+
+.sendIconDiv {
+    width: 93.11px;
+    height: 93.11px;
+    border-radius: 50%;
+    background: linear-gradient(103.25deg, #0D70BC 28.93%, #88E2E8 98.76%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -17.29px;
+    right: -26.6px;
+    z-index: 1;
+}
+
+.starsDiv {
+    position: absolute;
+    bottom: -92.52px;
+    right: -131.39px;
+}
+
+.rightTopBordersDiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 0.25;
+}
+
+.leftBottomBordersDiv {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.25;
+}
+
+.zIndexDiv {
+    position: absolute;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1900px) {
+    .mailSendingBack {
+        width: 100%;
+        padding: 105.08px 206.74px 292.28px 27.5px;
+    }
+
+    .mainBack {
+        width: auto;
+    }
+
+    .mailSendingBack p {
+        width: 100%;
+        height: auto;
+    }
+
+    .body {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .inputDiv {
+        margin-top: 20px;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 1140px) {
+
+    .inputDiv .input {
+        width: auto;
+    }
+
+    .inputDiv button {
+        width: auto;
+        /* font-size: 20px; */
+        padding: 0 10px;
+    }
+
+    .zIndexDiv {
+        /* padding: 20px; */
+        right: 20px;
+        left: 20px;
+    }
+
+    .inputDiv {
+        gap: 20px;
+    }
+
+    .input input {
+        padding: 33.25px 282.19px 34.2px 87.79px;
+    }
+}
+
+@media only screen and (max-width: 949px) {
+
+    .input input {
+        padding: 20.25px 202.19px 20.2px 87.79px;
+    }
+
+    .inputDiv .input {
+        height: 70px;
+    }
+
+    .inputDiv button {
+        height: 70px;
+        font-size: 25px;
+    }
+
+    .mailSendingBack p {
+        font-size: 35px;
+    }
+
+    .input img {
+        position: absolute;
+        top: 23.25px;
+        left: 31.23px;
+    }
+
+    .mailSendingBack {
+        height: 470px;
+    }
+}
+
+@media only screen and (max-width: 902px) {
+
+    .mailSendingBack {
+        height: 520px;
+    }
+
+    .input input {
+        padding: 20.25px 0.19px 20.2px 87.79px;
+    }
+}
+
+@media only screen and (max-width: 742px) {
+
+    .mailSendingBack {
+        height: 550px;
+    }
+
+    .mainBack {
+        height: auto;
+        padding: 0;
+    }
+
+    /* .inputDiv {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .starsDiv {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 594px) {
+    .input input {
+        padding: 20.25px 0.19px 20.2px 87.79px;
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    .input input {
+        padding: 20.25px 0.19px 20.2px 87.79px;
+    }
+
+    .zIndexDiv p {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 526px) {
+    .input input {
+        padding: 20.25px 0.19px 20.2px 87.79px;
+    }
+
+    .zIndexDiv p {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 498px) {
+
+    .mailSendingBack {
+        height: 600px;
+    }
+
+    .inputDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zIndexDiv p {
+        font-size: 27px;
+        line-height: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .mailSendingBack {
+        height: 500px;
+    }
+
+    .zIndexDiv p {
+        font-size: 20px;
+        line-height: 45px;
+    }
+
+    .inputDiv .input {
+        height: 50px;
+    }
+
+    .inputDiv button {
+        height: 50px;
+    }
+
+    .input input {
+        padding: 20.25px 0.19px 20.2px 57.79px;
+    }
+
+    .input input::placeholder {
+        font-size: 15px;
+    }
+
+    .input img {
+        top: 13.25px;
+        left: 20.23px;
+    }
+
+}

@@ -1,0 +1,138 @@
+.body {
+    width: 418.99px;
+    height: 607.87px;
+    position: relative;
+    border-radius: 31.92px;
+}
+
+.body>img:nth-child(1) {
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
+    border-radius: 31.92px;
+}
+
+.body>img:nth-child(2) {
+    position: absolute;
+    top: 25.36px;
+    left: 18.67px;
+}
+
+.description {
+    width: 418.99px;
+    height: 172.92px;
+    border-radius: 0px 0px 31.92px 31.92px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 1);
+}
+
+.description>p {
+    margin-top: 35.91px;
+    margin-left: 26.6px;
+    font-family: Poppins;
+    font-size: 23.94px;
+    font-weight: 500;
+    line-height: 29.81px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.destinationPart {
+    display: flex;
+    gap: 18.62px;
+    margin-top: 24.54px;
+    margin-left: 26.6px;
+}
+
+.destinationPart img {
+    cursor: pointer;
+}
+
+.destinationPart p {
+    font-family: Poppins;
+    font-size: 21.28px;
+    font-weight: 500;
+    line-height: 26.5px;
+    text-align: left;
+    color: rgba(94, 98, 130, 1);
+}
+
+@media only screen and (max-width: 450px) {
+    .body {
+        width: 363px;
+    }
+
+    .description {
+        width: 363px;
+    }
+
+    .body>img:nth-child(1) {
+        height: 123%;
+    }
+
+    .destinationPart p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .body {
+        width: 340px;
+    }
+
+    .description {
+        width: 340px;
+    }
+
+    .body>img:nth-child(1) {
+        height: 113%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .body {
+        width: 320px;
+    }
+
+    .description {
+        width: 320px;
+    }
+
+    .body>img:nth-child(1) {
+        height: 113%;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .body {
+        width: 305px;
+    }
+
+    .description {
+        width: 305px;
+    }
+
+    .body>img:nth-child(1) {
+        height: 113%;
+    }
+}
+
+
+
+@media only screen and (max-width: 325px) {
+    .body {
+        width: 265px;
+    }
+
+    .description {
+        width: 265px;
+    }
+
+    .body>img:nth-child(1) {
+        height: 103%;
+    }
+}

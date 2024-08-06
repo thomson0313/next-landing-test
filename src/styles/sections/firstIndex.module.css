@@ -1,0 +1,161 @@
+.body {
+    width: 100%;
+    height: 1121px;
+}
+
+.background {
+    background: url(../../../public/images/header-background.png);
+    width: 100%;
+    height: 100%;
+}
+
+.overlayBack {
+    background: linear-gradient(180deg, #0D70BC 0%, rgba(0, 0, 0, 0) 62.5%, #191A1F 97%);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContent {
+    width: 1242px;
+    height: 576px;
+    margin-top: 253px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.textSection {
+    font-family: Quicksand;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    color: white;
+    white-space: normal;
+    /* Allows text to wrap */
+    word-wrap: break-word;
+    /* Breaks long words to fit the container */
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.getHomeText {
+    font-family: Poppins;
+    font-size: 26.6px;
+    font-weight: 500;
+    line-height: 39.9px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 23.36px;
+}
+
+.mainInput {
+    width: 1241.11px;
+    height: 286px;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: #000000;
+    box-shadow: 0px 10px 80.9px -13px #A2B3CE3D;
+    position: relative;
+}
+
+.swapIcon {
+    position: absolute;
+    top: 62px;
+    right: 20.11px;
+    width: 32px;
+    height: 32px;
+    border-radius: 11.33px;
+    transform: rotate(90 deg);
+    background: #65B5F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.letsGoBtn {
+    width: 100%;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
+    gap: 10px;
+    border-radius: 99px;
+    background: linear-gradient(103.25deg, #0D70BC 28.93%, #88E2E8 98.76%);
+    box-shadow: 0px 10px 24.4px -13px #4186EE3D;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottomContent {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 11.64px;
+}
+
+@media only screen and (max-width:1325px) {
+    .mainInput {
+        width: 100%;
+    }
+
+    .mainContent {
+        padding: 0 25px;
+    }
+
+    .body {
+        width: 100%;
+        height: 1121px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .textSection {
+        font-size: 52px;
+    }
+
+    .mainContent {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .textSection {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .mainContent {
+        margin-top: 100px;
+    }
+
+    .getHomeText {
+        font-size: 18.6px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .bottomContent {
+        font-size: 17px;
+    }
+}

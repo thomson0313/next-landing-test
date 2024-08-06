@@ -1,0 +1,423 @@
+.body {
+    width: 100%;
+    height: auto;
+    background: #191A1F;
+}
+
+.mainBack {
+    width: 1549.59px;
+    height: 473.52px;
+    margin-left: 247.4px;
+    border-radius: 13.3px 0px 0px 0px;
+    background: #191A1F;
+    z-index: 20;
+    position: relative;
+    display: flex;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 23.94px;
+    font-weight: 600;
+    line-height: 35.91px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10.56px;
+}
+
+.bigTitle {
+    width: 690px;
+    height: 200px;
+    font-family: Poppins;
+    font-size: 66.51px;
+    font-weight: 700;
+    line-height: 99.76px;
+    text-align: left;
+    background: linear-gradient(103.25deg, #0D70BC 28.93%, #88E2E8 98.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 82.99px;
+}
+
+.upCard {
+    width: 670.38px;
+    height: 325.88px;
+    border-radius: 13.3px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 133.01px 106.41px 0px rgba(0, 0, 0, 0.02);
+    padding: 37.24px 90.45px 45.15px 45.22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 45.22px;
+    z-index: 40;
+    margin-right: 151.63px;
+}
+
+.upCard .content {
+    width: 534.71px;
+    height: 128px;
+    font-family: Poppins;
+    font-size: 21.28px;
+    font-weight: 500;
+    line-height: 42.56px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.bottomLetter>p:nth-child(1) {
+    font-family: Poppins;
+    font-size: 23.94px;
+    font-weight: 600;
+    line-height: 35.91px;
+    text-align: left;
+    color: rgba(94, 98, 130, 1);
+}
+
+.bottomLetter>p:nth-child(2) {
+    font-family: Poppins;
+    font-size: 18.62px;
+    font-weight: 500;
+    line-height: 27.93px;
+    text-align: left;
+    color: rgba(94, 98, 130, 1);
+}
+
+.avatarDiv {
+    position: absolute;
+    left: -48px;
+    top: -52px;
+}
+
+.underCard {
+    width: 667.72px;
+    height: 308.59px;
+    border-radius: 13.3px;
+    border: 2.66px solid rgba(247, 247, 247, 1);
+    position: absolute;
+    top: 119.42px;
+    left: 63.85px;
+    z-index: 30;
+    padding: 207.5px 389.65px 29.2px 45.22px;
+    display: flex;
+    flex-direction: column;
+    gap: 7.89px;
+}
+
+.underCard>p:nth-child(1) {
+    font-family: Poppins;
+    font-size: 23.94px;
+    font-weight: 600;
+    line-height: 35.91px;
+    text-align: left;
+    color: rgba(94, 98, 130, 1);
+}
+
+.underCard>p:nth-child(2) {
+    font-family: Poppins;
+    font-size: 18.62px;
+    font-weight: 500;
+    line-height: 27.93px;
+    text-align: left;
+    color: rgba(94, 98, 130, 1);
+}
+
+.arrows {
+    margin-top: 184.79px;
+    display: flex;
+    flex-direction: column;
+    gap: 76.48px;
+}
+
+.arrows>.arrowUp,
+.arrows>.arrowDown {
+    cursor: pointer;
+}
+
+.bulletsDiv {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1900px) {
+    .mainBack {
+        width: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+    }
+}
+
+
+@media only screen and (max-width:1605px) {
+    .mainBack {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .arrows {
+        margin-right: -1010px;
+        position: absolute;
+        top: 320px;
+    }
+}
+
+@media only screen and (max-width:1190px) {
+
+    .arrows {
+        margin-right: -800px;
+        position: absolute;
+        top: 320px;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .upCard {
+        margin-right: 0px;
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width:948px) {
+    .upCard {
+        margin-right: 0px;
+        margin-top: 90px;
+    }
+
+    .arrows {
+        top: 140px;
+        display: flex;
+        margin-left: -800px;
+        flex-direction: row;
+    }
+
+    .arrowUp img, .arrowDown img {
+        transform: rotate(270deg);
+    }
+}
+
+@media only screen and (max-width:870px) {
+    .upCard {
+        width: 600px;
+    }
+
+    .underCard {
+        width: 600px;
+        padding: 207.5px 0px 29.2px 45.22px;
+    }
+
+}
+
+@media only screen and (max-width:773px) {
+    .upCard {
+        width: 500px;
+        height: 292.88px;
+    }
+
+    .underCard {
+        width: 500px;
+        height: 292.88px;
+        padding: 207.5px 0px 29.2px 45.22px;
+    }
+
+    .upCard .content {
+        width: 450px;
+        font-size: 18px;
+    }
+
+    .bottomLetter p:nth-child(1) {
+        font-size: 19px;
+    }
+
+    .bottomLetter p:nth-child(2) {
+        font-size: 15px;
+    }
+
+    .bigTitle {
+        width: auto;
+        height: auto;
+    }
+
+    .arrows {
+        top: 250px;
+    }
+}
+
+@media only screen and (max-width:657px) {
+    .upCard {
+        width: 400px;
+        height: 220.88px;
+        padding: 27.24px 80.45px 35.15px 35.22px;
+    }
+
+    .underCard {
+        width: 400px;
+        height: 220.88px;
+        top: 86.42px;
+        padding: 150.5px 0px 20.2px 30.22px;
+    }
+
+    .upCard .content {
+        width: 350px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .underCard p:nth-child(1) {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .underCard p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .bottomLetter p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .bottomLetter p:nth-child(2) {
+        font-size: 13px;
+    }
+
+    .bigTitle {
+        width: auto;
+        height: auto;
+    }
+
+    .arrows {
+        top: 250px;
+    }
+
+    .avatarDiv {
+        width: 70px;
+        left: -39px;
+        top: -38px;
+    }
+}
+
+@media only screen and (max-width:588px) {
+    .arrows {
+        top: 386px;
+    }
+}
+
+@media only screen and (max-width:570px) {
+    .upCard {
+        width: 300px;
+        height: 200px;
+        padding: 25.24px 10.45px 15.15px 25.22px;
+    }
+
+    .upCard .content {
+        width: 260px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .underCard p:nth-child(1) {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .underCard p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .bottomLetter p:nth-child(1) {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bottomLetter p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .underCard {
+        width: 300px;
+        height: 200px;
+        top: 56.42px;
+    }
+
+    .mainBack div:nth-child(2) {
+        margin-right: 65px;
+    }
+
+}
+
+@media only screen and (max-width:470px) {
+    .mainBack div:nth-child(2) {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .mainBack div:nth-child(2) {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width:423px) {
+    .upCard {
+        width: 230px;
+        height: 170px;
+        padding: 16.24px 10.45px 15.15px 19.22px;
+    }
+
+    .upCard .content {
+        width: 200px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .underCard p:nth-child(1) {
+        font-size: 12px;
+        line-height: 5px;
+    }
+
+    .underCard p:nth-child(2) {
+        font-size: 11px;
+    }
+
+    .bottomLetter p:nth-child(1) {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .bottomLetter p:nth-child(2) {
+        font-size: 11px;
+    }
+
+    .underCard {
+        width: 230px;
+        height: 170px;
+        top: 56.42px;
+        left: 42.85px;
+        padding: 120.5px 0px 20.2px 20.22px;
+    }
+
+    .mainBack div:nth-child(2) {
+        margin-right: 25px;
+    }
+
+    .bigTitle {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .arrows {
+        top: 280px;
+    }
+
+    .avatarDiv {
+        width: 50px;
+        top: -25px;
+        left: -25px;
+    }
+
+}

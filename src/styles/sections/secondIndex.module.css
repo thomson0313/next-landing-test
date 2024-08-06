@@ -1,0 +1,374 @@
+.body {
+    width: 100%;
+    height: 961px;
+    position: relative;
+    background: rgba(25, 26, 31, 1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.background {
+    background: linear-gradient(180deg, rgba(25, 26, 31, 0.1) 0%, rgba(13, 112, 188, 0.1) 50.5%, rgba(25, 26, 31, 0.1) 100%);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.mainBack {
+    width: 1482.16px;
+    height: 653.22px;
+    position: absolute;
+    top: 45px;
+    left: 247px;
+    display: flex;
+    flex-direction: column;
+    gap: 19.87px;
+}
+
+.text {
+    font-family: Poppins;
+    font-size: 23.94px;
+    font-weight: 600;
+    line-height: 35.91px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    gap: 14.15px;
+}
+
+.title {
+    width: 730px;
+    height: 200px;
+    font-family: Poppins;
+    font-size: 66.51px;
+    font-weight: 700;
+    line-height: 99.76px;
+    text-align: left;
+    background: linear-gradient(103.25deg, #0D70BC 28.93%, #88E2E8 98.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.childContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightContent {
+    width: 645.11px;
+    height: 532.05px;
+    border: 1.33px;
+    margin-top: 49.88px;
+    position: relative;
+}
+
+.card {
+    width: 492.15px;
+    height: 532.05px;
+    border-radius: 34.58px;
+    background: var(--Dark-Mode-BG-Color, rgba(25, 26, 31, 1));
+    box-shadow: 0px 133.01px 106.41px 0px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    margin-top: 26.6px;
+    margin-left: 32.25px;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 34.58px;
+    margin-left: 32.25px;
+}
+
+.cardTitle {
+    font-family: Poppins;
+    font-size: 23.94px;
+    font-weight: 500;
+    line-height: 29.81px;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 16.55px;
+}
+
+.cardIdea {
+    display: flex;
+}
+
+.cardIdeaDate {
+    font-family: Poppins;
+    font-size: 21.28px;
+    font-weight: 500;
+    line-height: 26.5px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    text-align: left;
+    margin-right: 4.04px;
+}
+
+.cardIdeaOwner {
+    font-family: Poppins;
+    font-size: 21.28px;
+    font-weight: 500;
+    line-height: 26.5px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 17.29px;
+}
+
+
+.contactIcons {
+    display: flex;
+    gap: 23.94px;
+    margin-top: 28.53px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38.58px;
+}
+
+.cardFooterLeftPart {
+    display: flex;
+    gap: 19.95px;
+}
+
+.cardFooterLetter {
+    font-family: Poppins;
+    font-size: 21.28px;
+    font-weight: 500;
+    line-height: 26.5px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(132, 130, 154, 1);
+}
+
+.heartIconDiv {
+    margin-right: 31.92px;
+}
+
+.inProgressCard {
+    width: 349.82px;
+    height: 171.59px;
+    border-radius: 23.94px;
+    background: var(--Dark-Mode-BG-Color, rgba(25, 26, 31, 1));
+    box-shadow: 0px 133.01px 106.41px 0px rgba(0, 0, 0, 0.02);
+    position: absolute;
+    right: 0;
+    bottom: 69.17px;
+    display: flex;
+    gap: 15.96px;
+    margin-top: 21.28px;
+}
+
+.imgDiv {
+    /* background-color: #88E2E8; */
+    margin-top: 23.94px;
+    margin-left: 26.6px;
+}
+
+.imgDiv img {
+    width: 66.51px;
+    height: 66.51px;
+    border-radius: 50%;
+}
+
+.statusPart {}
+
+.statusPart p:nth-child(1) {
+    font-family: Poppins;
+    font-size: 18.62px;
+    font-weight: 500;
+    line-height: 23.18px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: rgba(132, 130, 154, 1);
+    margin-bottom: 7.59px;
+    margin-top: 21.28px;
+}
+
+.statusPart p:nth-child(2) {
+    font-family: Poppins;
+    font-size: 23.94px;
+    font-weight: 500;
+    line-height: 29.81px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 17.89px;
+}
+
+.statusPart p:nth-child(3) {
+    color: #FFFFFF;
+}
+
+.statusPart p:nth-child(3)>span {
+    font-family: Poppins;
+    font-size: 18.62px;
+    font-weight: 500;
+    line-height: 23.18px;
+    letter-spacing: -0.055em;
+    text-align: left;
+    color: var(--Branded-Blue, rgba(13, 112, 188, 1));
+}
+
+.statusPart div {
+    margin-top: 12.91px;
+    width: 207.5px;
+    height: 6.65px;
+    border-radius: 39.9px;
+    background: linear-gradient(103.25deg, #0D70BC 28.93%, #88E2E8 98.76%);
+}
+
+@media only screen and (max-width:1900px) {
+    .mainBack {
+        position: unset;
+        width: 100%;
+        padding: 0 160px;
+    }
+}
+
+@media only screen and (max-width:1780px) {
+    .mainBack {
+        padding: 0 100px;
+    }
+}
+
+@media only screen and (max-width:1500px) {
+    .mainBack {
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width:1438px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body {
+        height: auto;
+    }
+
+    .mainBack {
+        height: 100%;
+        padding: 0 50px;
+    }
+
+    .rightContent {
+        display: flex;
+        justify-content: flex-end;
+        width: unset;
+    }
+
+    .card {
+        margin-right: 143px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .title {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width:698px) {
+
+    .img {
+        margin-top: 20px;
+        margin-left: auto;
+        padding: 0 20px;
+    }
+
+
+}
+
+@media only screen and (max-width:610px) {
+    .title {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .text {
+        font-size: 18.6px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .card {
+        margin-right: auto;
+    }
+    .cardTitle {
+        font-size: 18.6px;
+    }
+
+    .cardIdea p {
+        font-size: 18.6px;
+    }
+
+    .cardFooterLetter {
+        font-size: 15.3px;
+    }
+
+    .inProgressCard {
+        width: auto;
+        height: auto;
+        margin-top: auto;
+        padding: 10px;
+    }
+
+    .imgDiv img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .statusPart p:nth-child(1) {
+        font-size: 14.62px;
+    }
+
+    .statusPart p:nth-child(2) {
+        font-size: 19.62px;
+        margin-bottom: 11px;
+    }
+
+    .statusPart p:nth-child(3)>span {
+        font-size: 14px;
+    }
+
+    .statusPart div {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .mainBack {
+        padding:  0 20px;
+    }
+}

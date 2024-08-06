@@ -1,0 +1,211 @@
+.body {
+    width: 100%;
+    height: auto;
+    background: #191A1F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 76.82px;
+}
+
+.body>p {
+    font-family: Poppins;
+    font-size: 18.62px;
+    font-weight: 500;
+    line-height: 23.18px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 140.69px;
+    margin-top: 110.99px;
+}
+
+.mainBack {
+    display: flex;
+    gap: 92.6px;
+}
+
+.firstPart {
+    display: flex;
+    flex-direction: column;
+    gap: 50.65px;
+}
+
+.firstPart>p {
+    width: 294px;
+    height: 44px;
+    font-family: Poppins;
+    font-size: 17.29px;
+    font-weight: 500;
+    line-height: 21.53px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.secPart {
+    display: flex;
+}
+
+.secPart a:hover {
+    text-decoration: underline;
+}
+
+.guideLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 40.88px;
+}
+
+.guideLinks p {
+    font-family: Poppins;
+    font-size: 27.93px;
+    font-weight: 700;
+    line-height: 34.78px;
+    text-align: left;
+    color: var(--Branded-Blue, rgba(13, 112, 188, 1));
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15.23px;
+    font-family: Poppins;
+    font-size: 23.94px;
+    font-weight: 500;
+    line-height: 29.81px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.links.show {
+    max-height: 300px; /* Adjust based on content height */
+    opacity: 1;
+    margin-top: 20px;
+  }
+
+.company {
+    margin-right: 95px;
+}
+
+.contact {
+    margin-right: 122.98px;
+}
+
+.thirdPart p {
+    font-family: Poppins;
+    font-size: 26.6px;
+    font-weight: 500;
+    line-height: 33.12px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 26.6px;
+    font-weight: 500;
+    line-height: 33.12px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.storeDiv {
+    display: flex;
+    gap: 9.31px;
+    margin-top: 21.54px;
+}
+
+.iconDiv {
+    display: flex;
+    gap: 33.25px;
+    margin-bottom: 34.58px;
+}
+
+.resMainBack {
+    display: flex;
+    flex-direction: column;
+}
+
+.responsiveDownpart {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.resSecPart {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.resBody {
+    display: none;
+}
+
+.fontDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width:1440px) {
+    .mainBack {
+        gap: 52.6px;
+    }
+
+    .nonRes {
+        display: none;
+    }
+
+    .resBody {
+        display: flex;
+    }
+
+    .links {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.2s ease, opacity 0.2s ease;
+        padding-left: 10px;
+    }
+
+    .resMainBack {
+        width: 100%;
+    }
+
+    .company {
+        margin-right: 0;
+    }
+
+    .contact {
+        margin-right: 0;
+    }
+
+    .guideLinks {
+        gap: 0;
+        padding: 20px;
+        border: 1px solid #FFFFFF;
+    }
+
+    .resSecPart {
+        gap: 0;
+    }
+
+    .responsiveDownpart {
+        gap: 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 632px) {
+    .responsiveDownpart {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .body > p {
+        font-size: 15px;
+    }
+}

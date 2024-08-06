@@ -1,0 +1,10 @@
+.body {
+    width: 47.88px;
+    height: 47.88px;
+    border-radius: 50%;
+    background: rgba(245, 245, 245, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

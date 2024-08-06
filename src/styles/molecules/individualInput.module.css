@@ -1,0 +1,68 @@
+.selectContainer {
+    width: 1217.11px;
+    height: 62px;
+    padding: 8px;
+    gap: 4px;
+    border-radius: 10px;
+    opacity: 0px;
+    position: relative;
+    padding-left: 40px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid #DBD8E2;
+    margin-bottom: 12px;
+}
+
+.staticIconAndTitle {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    gap: 8.31px;
+    left: 8px;
+    top: 8px;
+}
+
+.text {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* .icon {
+    width: 23.76px;
+    height: 11.04px;
+    gap: 0px;
+    opacity: 0px;
+} */
+
+.selectContainer select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    /* Optional: Set background to transparent if needed */
+    /* Remove the border and background to make it more seamless */
+    border: none;
+    background: none;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF !important;
+}
+
+
+@media only screen and (max-width:1325px) {
+
+    .selectContainer {
+        width: 100%;
+    }
+
+}

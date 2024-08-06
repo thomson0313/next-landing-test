@@ -1,0 +1,89 @@
+.body {
+    width: 522.45px;
+    height: 83.92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 27.93px;
+    margin-bottom: 65.05px;
+
+}
+
+.iconSection {
+    width: 62.52px;
+    height: 63.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17.29px;
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 5.92px;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 21.28px;
+    font-weight: 700;
+    line-height: 26.5px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.content {
+    width: 432px;
+    height: 52px;
+    font-family: Poppins;
+    font-size: 18.28px;
+    font-weight: 400;
+    line-height: 26.5px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+@media only screen and (max-width:768px) {
+    .body {
+        width: auto;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width:610px) {
+    .content {
+        width: auto;
+    }
+
+    .body {
+        width: auto;
+        justify-content: center;
+    }
+
+    .description {
+        width: 77%;
+    }
+}
+
+@media only screen and (max-width:420px) {
+   .iconSection {
+    width: 50px;
+    height: 50px;
+   }
+
+   .iconSection img {
+    width: 60%;
+    height: 54%;
+   }
+
+   .title {
+    font-size: 18px;
+   }
+
+   .content {
+    font-size: 16px;
+   }
+}

@@ -1,0 +1,239 @@
+.body {
+    width: 100%;
+    height: 1036px;
+    position: relative;
+    background: linear-gradient(180deg, #191A1F 0%, #000000 50.5%, #191A1F 100%);
+}
+
+.mainBack {
+    width: 1486px;
+    height: 820.87px;
+    margin-left: 235px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -101px;
+    z-index: 10;
+    position: relative;
+}
+
+.starsImgDiv {
+    position: absolute;
+    top: 219px;
+    right: 59.06px;
+}
+
+.mainBack>p {
+    font-family: Quicksand;
+    font-size: 23.94px;
+    font-weight: 600;
+    line-height: 29.93px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 585.53px;
+    margin-bottom: 16.56px;
+}
+
+.recommendedMoversDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommendedMoversDiv p {
+    font-family: Poppins;
+    font-size: 66.51px;
+    font-weight: 700;
+    line-height: 99.76px;
+    background: linear-gradient(103.25deg, #0D70BC 28.93%, #88E2E8 98.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-left: 304.65px;
+}
+
+.recommendedMoversDiv a {
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(72, 173, 251, 1);
+}
+
+.cardSection {
+    display: flex;
+    gap: 65.01px;
+    margin-top: 66.44px;
+    z-index: 20;
+}
+
+.hurricanDiv {
+    position: absolute;
+    top: 422.98px;
+    right: 20.21px;
+    z-index: 1;
+}
+
+.swiperResponse {
+    display: none;
+}
+
+@media only screen and (max-width: 1890px) {
+    .mainBack {
+        width: auto;
+        margin-left: auto;
+        padding: 0 30px;
+    }
+
+    .mainBack > p {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardSection {
+        display: none;
+    }
+
+    .swiperResponse {
+        display: flex;
+        margin-top: 66.44px;
+    }
+
+    .hurricanDiv {
+        display: none;
+    }
+
+    .starsImgDiv {
+        display: none;
+    }
+
+    .recommendedMoversDiv {
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 1591px) {
+    .hurricanDiv {
+        right: 90px;
+    }
+    .recommendedMoversDiv {
+        padding-right: 60px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .cardSection {
+        gap: 30px;
+    }
+
+    .hurricanDiv {
+        right: 13px;
+    }
+
+    .starsImgDiv {
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1384px) {
+    .mainBack {
+        margin: auto;
+        padding: 100px 30px;
+        height: 100%;
+    }
+
+    .recommendedMoversDiv p {
+        margin-left: 200px;
+    }
+
+    .recommendedMoversDiv {
+        padding: 0 25px;
+    }
+
+    .body {
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 1273px) {
+    .recommendedMoversDiv p {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1137px) {
+    .recommendedMoversDiv p {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .recommendedMoversDiv a {
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .recommendedMoversDiv a {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 729px) {
+    .recommendedMoversDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recommendedMoversDiv a {
+        width: auto;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 618px) {
+    .recommendedMoversDiv {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    .recommendedMoversDiv p {
+        font-size: 60px;
+        line-height: 65px;
+    }
+}
+
+@media only screen and (max-width: 529px) {
+    .recommendedMoversDiv p {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .recommendedMoversDiv a {
+        font-size: 20px;
+    }
+
+    .mainBack {
+        padding: 100px 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .recommendedMoversDiv p {
+        font-size: 40px;
+        line-height: 65px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .recommendedMoversDiv p {
+        font-size: 35px;
+        line-height: 65px;
+    }
+}
